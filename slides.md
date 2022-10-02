@@ -582,7 +582,7 @@ _color: #3D0F58
 * Terragrunt to keep our Terraform dry
 * Connect to Philips with AWS Direct Connect
 * Work together with security to change firewall rules
-* Linit AWS access by permission boundaries
+* Limit AWS access by permission boundaries
 
 ![bg right:30%](assets/droste.jpeg)
 
@@ -652,6 +652,35 @@ jobs:
 
 ![bg right:35%](assets/gh-aws-oidc.drawio.png)
 
+---
+<!--
+_backgroundColor: #8345BA
+_color: #3D0F58
+-->
+
+# Limit access by Permissions Boundaries
+
+Define identity permission
+```json
+{
+  "Effect": "Allow",
+  "Action": ["iam:*"],
+  "Resource": "*"
+}
+```
+
+Limit by boundary
+```json
+{
+  "Effect": "Allow",
+  "Action": [
+    "iam:DeleteRole"
+  ],
+  "Resource": "arn:...:role/github-runners/*"
+}
+```
+
+![bg right:35%](assets/permission-boundary.png)
 
 ---
 
