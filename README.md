@@ -7,7 +7,7 @@ This repository has slides and demo resources for the talk [Accelerating InnerSo
 - [Talk](https://awscommunityday.nl/sessions/sls208/)
 - [Terraform module AWS GitHub runners](https://github.com/philips-labs/terraform-aws-github-runner)
 - [Terraform module OIDC](https://github.com/philips-labs/terraform-aws-github-oidc)
-- [Slides](https://philips-labs.github.io/2022-10-03_aws-community-day-nl-runners)
+- [Slides](https://philips-labs.github.io/2022-10-03_aws-community-day-nl-runners/)
 
 ## Speaker
 
