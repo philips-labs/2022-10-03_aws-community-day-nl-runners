@@ -404,7 +404,7 @@ section {
 
 # Cloud Solution
 
-**Serverless** contol plane receiving events from GitHub and scale new self-hosted runners using **AWS EC2 Spont Instances**
+**Serverless** contol plane receiving events from GitHub and scale new self-hosted runners using **AWS EC2 Spot Instances**
 
 **Terraform module** with out of the box working configuration which can be tailored to for specific use-cases. AWS Lambda's build in **TypeScript**.
 
@@ -493,7 +493,7 @@ section {
 
 * No event
 * Self terminating ephemeral runners
-* Scale down job, to remove idle instances from the cattle
+* Event bridge trigger to trigger regular scale down checks
 
 ![bg right](assets/architecture.jpg)
 
