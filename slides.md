@@ -468,7 +468,7 @@ section {
 
 * Support Spot and On-Demand
 * Create instance by CreateFleet API with type `Instant`.
-* Limit permission to the istance
+* Limit permission to the instance
 * Optional ephemeral
 * Optional bring your own AMI and custom cloud-init
 * Cached GitHub agent to improve boot time.
@@ -598,8 +598,8 @@ _color: #3D0F58
 Now can we avoid avoid using keys in CI?
 
 * Define OIDC provider for GitHub in AWS
-* Create role with turst based on claim
-8 Define policies for role
+* Create role with trust based on claim
+* Define policies for role
 
 
 
@@ -824,7 +824,4 @@ section {
 </style>
 
 
-
-
 ![bg](assets/Philips_Headquarter_Amsterdam_the_Netherland-ALI-global.jpeg)
-
